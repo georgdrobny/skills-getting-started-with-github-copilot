@@ -76,7 +76,3 @@ def reset_activities():
     activities.update(original_activities)
     
     yield
-    
-    # Cleanup after test (reset again)
-    activities.clear()
-    activities.update(original_activities)
